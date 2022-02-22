@@ -112,7 +112,7 @@ func main() {
 	flag.Usage = func() {
 		fmt.Printf("Usage of %s:\n\n", filepath.Base(os.Args[0]))
 		fmt.Printf("It displays the state of nodes or a service of a docker swarm cluster.\n\n")
-		fmt.Printf("Version: %s\n\n", version)
+		fmt.Printf("Version: %s - https://github.com/EmmaTinten/go-monitoring-plugins\n\n", version)
 		flag.PrintDefaults()
 	}
 	var flagNodes = flag.Bool("n", false, "check swarm node state")
