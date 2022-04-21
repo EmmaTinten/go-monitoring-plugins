@@ -16,4 +16,4 @@ or
 make build-static
 ```
 
-for static binaries. The make process will place them under bin/. You habe to install the files yourself.
+for static binaries. The make process will place them under bin/. You have to install the files manually.
